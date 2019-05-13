@@ -1,0 +1,13 @@
+2195 states are in states list
+First state utility is: 1.5
+averageScore is: 1.5038
+
+if there are 2 persons in one of the edges
+2195 states are in states list
+First state utility is: 2.25
+averageScore is: 2.2602
+
+if there are 2 persons in one of the edges and the blockage probability in the adjacent edges 0.9
+2195 states are in states list
+First state utility is: 1.1300000858306873
+averageScore is: 1.1297

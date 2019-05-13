@@ -1,0 +1,18 @@
+#T 11                 ; number of vertices n in graph (from 1 to n)
+#V 8 P 1              ; Vertex 8, has 1 evacuees
+#V 9 P 1              ; Vertex 9, has 1 evacuee
+#E1 1 2 W1            ; Edge 1 between vertices 1 and 2, weight 1
+#E2 1 5 W1            ; Edge 2 between vertices 1 and 5, weight 1
+#E3 2 3 W1 B0.5       ; Edge 3 between vertices 2 and 3, weight 1, probability of blockage 0.5
+#E4 2 4 W1 B0.5       ; Edge 4 between vertices 2 and 4, weight 1, probability of blockage 0.5
+#E5 3 8 W1            ; Edge 5 between vertices 3 and 8, weight 1
+#E6 4 8 W1            ; Edge 6 between vertices 4 and 8, weight 1
+#E7 5 6 W1 B0.5       ; Edge 7 between vertices 5 and 6, weight 1, probability of blockage 0.5
+#E8 5 7 W1 B0.5       ; Edge 8 between vertices 5 and 7, weight 1, probability of blockage 0.5
+#E9 6 9 W1            ; Edge 9 between vertices 6 and 9, weight 1
+#E10 7 9 W1           ; Edge 10 between vertices 7 and 9, weight 1
+#E11 9 10 W1          ; Edge 10 between vertices 9 and 10, weight 1
+#E12 10 11 W1         ; Edge 12 between vertices 10 and 11, weight 1
+#E13 11 8 W1          ; Edge 13 between vertices 11 and 8, weight 1
+#D 11                 ; Deadline is at time 11
+#V 1 S                ; Vertex 1, has shelter
